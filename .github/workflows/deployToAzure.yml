@@ -67,7 +67,7 @@ jobs:
         package: '${{ env.PUBLISH_PATH }}'
         
   deploy_to_prod:
-    needs: deploy_to_dev
+    
     runs-on: ubuntu-latest
     environment: prod
     steps:
@@ -76,7 +76,7 @@ jobs:
       uses: actions/download-artifact@v2.0.10
       with:
         # Artifact name
-        name: dotnet-webapi
+        name: dotnet-webapi-demo
         path: '${{ env.PUBLISH_PATH }}'
         # Destination path
     - name: Azure WebApp
