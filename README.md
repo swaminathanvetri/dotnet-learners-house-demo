@@ -1,5 +1,7 @@
 # dotnet-learners-house-demo
 
+Demo app for Dotnet learners house
+
 ## Build Status
 
 [![Build & Deploy .NET App](https://github.com/svswaminathan/dotnet-learners-house-demo/actions/workflows/deployToAzure.yml/badge.svg?branch=main)](https://github.com/svswaminathan/dotnet-learners-house-demo/actions/workflows/deployToAzure.yml)
